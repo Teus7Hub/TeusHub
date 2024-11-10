@@ -18,7 +18,7 @@ MenuUI:ButtonAdd("Blox Fruits Kaitun(Soon)",function()
     MenuUI:WindowDelete()
 end)
 MenuUI:ButtonAdd("Murder Mystery 2",function()
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Teusmm2.lua"))()
     MenuUI:WindowDelete()
 end)
 --open source niggas

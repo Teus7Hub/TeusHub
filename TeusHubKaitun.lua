@@ -388,21 +388,21 @@ local function AutoCDK()
         else
           Door.CanCollide = false
         end
-      end -- Verifica se a porta est· aberta
+      end -- Verifica se a porta est√° aberta
       
       local Count = GetMaterial("Alucard Fragment") -- Pega a quantidade de material atual
       
-      if Count == 6 then -- Verifica se È a ultima miss„o
+      if Count == 6 then -- Verifica se √© a ultima miss√£o
         return {"FinalQuest"}
       elseif Count == 0 then
         FireRemote("CDKQuest", "Progress", "Evil")FireRemote("CDKQuest", "StartTrial", "Evil")
-        return {"Yama", 1} -- Retorna a primeira miss„o
+        return {"Yama", 1} -- Retorna a primeira miss√£o
       elseif Map:FindFirstChild("HellDimension") then
-        return {"Yama", 3} -- Retorna a dimens„o da Yama
+        return {"Yama", 3} -- Retorna a dimens√£o da Yama
       elseif Map:FindFirstChild("HeavenlyDimension") then
-        return {"Tushita", 3} -- Retorna a dimens„o da Tushita
+        return {"Tushita", 3} -- Retorna a dimens√£o da Tushita
       elseif Player:FindFirstChild("QuestHaze") then
-        return {"Yama", 2} -- Retorna a nÈvoa da miseria
+        return {"Yama", 2} -- Retorna a n√©voa da miseria
       end
       
       local Progress = FireRemote("CDKQuest", "Progress")

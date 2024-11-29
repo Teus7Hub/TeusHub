@@ -22,7 +22,7 @@ MenuUI:ButtonAdd("universal (All Game)",function()
     MenuUI:WindowDelete()
 end)
 MenuUI:ButtonAdd("Murder Mystery 2",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusMM2.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubMM2.lua"))()
     MenuUI:WindowDelete()
 end)
 --open source niggas

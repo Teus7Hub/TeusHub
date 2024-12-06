@@ -8,7 +8,7 @@ end)
  print("Ant-Afk")
 -- List Of Games Script 👾
 local MenuUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/SetUIY/main/One.lua"))()
-MenuUI:WindowCreate("Teus Hub","rbxassetid://80086118575102","MENU SCRIPT")
+MenuUI:WindowCreate("Teus Hub","rbxassetid://80086118575102","discord.gg/teusscripts")
 MenuUI:ButtonAdd("Blox Fruits Main",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHub.lua"))()
     MenuUI:WindowDelete()

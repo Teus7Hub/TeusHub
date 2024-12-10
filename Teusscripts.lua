@@ -26,4 +26,3 @@ MenuUI:ButtonAdd("Murder Mystery 2",function()
     MenuUI:WindowDelete()
 end)
 --open source niggas
-s

@@ -1,6 +1,6 @@
-UiLoader.Window = UiLoader.Fluent:CreateWindow(
+Loader.Window = Loader.:CreateWindow(
     {
-        Title = "Teus Hub",
+        Title = "Tsuo Hub",
         SubTitle = "Develope by vMh~ (discord.gg/teusscripts)",
         TabWidth = 160,
         Size = UDim2.fromOffset(500, 290),

@@ -1,4 +1,4 @@
-Loader.Window = Loader.:CreateWindow(
+Loader.Window = Loader.Fluent:CreateWindow(
     {
         Title = "Tsuo Hub",
         SubTitle = "Develope by vMh~ (discord.gg/teusscripts)",

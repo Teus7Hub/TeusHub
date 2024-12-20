@@ -1,4 +1,4 @@
-Loader.Window = Loader:CreateWindow(
+Loader.Window = Loader:(
     {
         Title = "Teus Hub",
         SubTitle = "Develope by vMh~ (dsc.gg/teusscripts)",

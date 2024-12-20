@@ -1,4 +1,4 @@
-UiLoader.Window = UiLoader:CreateWindow(
+Loader.Window = Loader:CreateWindow(
     {
         Title = "Teus Hub",
         SubTitle = "Develope by vMh~ (dsc.gg/teusscripts)",

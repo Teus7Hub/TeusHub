@@ -9,6 +9,6 @@ UiLoader.Window = UiLoader.Fluent:CreateWindow(
         MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
     }
 ) 
-print('loaded Fisch')
+print('loaded fisch')
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/refs/heads/main/fisch"))()

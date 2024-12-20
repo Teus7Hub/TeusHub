@@ -1,4 +1,4 @@
-UiLoader.Window = UiLoader.Fluent:CreateWindow(
+UiLoader.Window = UiLoader:CreateWindow(
     {
         Title = "Teus Hub",
         SubTitle = "Develope by vMh~ (dsc.gg/teusscripts)",

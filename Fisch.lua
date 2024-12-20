@@ -10,5 +10,4 @@ UiLoader.Window = UiLoader.Fluent:CreateWindow(
     }
 ) 
 print('loaded Fisch')
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/refs/heads/main/fisch"))()

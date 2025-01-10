@@ -1,3 +1,5 @@
+if gameId == 2753915549 or gameId == 4442272183 or gameId == 7449423635 then
+    
 -- Teus Hub Loading 😈
 -- Ant-Afk ❄️
     game:GetService("Players").LocalPlayer.Idled:connect(function()

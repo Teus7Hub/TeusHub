@@ -1,14 +1,6 @@
--- Teus Hub Loading 😈
--- Ant-Afk ❄️
-    game:GetService("Players").LocalPlayer.Idled:connect(function()
-     game:GetService("VirtualUser"):Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-wait(1)
-game:GetService("VirtualUser"):Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-end)
--- List Of Games Script 👾
 local MenuUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/SetUIY/main/One.lua"))()
 MenuUI:WindowCreate("Teus Hub","rbxassetid://80086118575102","dsc.gg/teusscripts")
-MenuUI:ButtonAdd("Blox Fruits Main ❌",function()
+MenuUI:ButtonAdd("Blox Fruits Main ✔",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHub.lua"))()
     MenuUI:WindowDelete()
 end)
@@ -27,4 +19,10 @@ end)
 MenuUI:ButtonAdd("Meme Sea ✔",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Memesea.lua"))()
     MenuUI:WindowDelete()
+end)
+
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+     game:GetService("VirtualUser"):Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+wait(1)
+game:GetService("VirtualUser"):Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 end)

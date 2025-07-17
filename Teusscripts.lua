@@ -21,7 +21,6 @@ MenuUI:ButtonAdd("Murder Mystery 2 ✔", function()
     MenuUI:WindowDelete()
 end)
 
--- Anti-AFK
 game:GetService("Players").LocalPlayer.Idled:Connect(function()
     local vu = game:GetService("VirtualUser")
     vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
@@ -29,14 +28,12 @@ game:GetService("Players").LocalPlayer.Idled:Connect(function()
     vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 end)
 
--- Função de carregamento seguro (sem warn)
 local function safeLoad(url)
     pcall(function()
         loadstring(game:HttpGet(url))()
     end)
 end
 
--- Auto detecta o jogo
 local gameId = game.PlaceId
 if gameId == 10260193230 then
     -- Meme Sea

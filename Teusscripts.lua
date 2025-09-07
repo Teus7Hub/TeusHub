@@ -31,6 +31,11 @@ MenuUI:ButtonAdd("Steal a Brainrot ✔", function()
     MenuUI:WindowDelete()
 end)
 
+MenuUI:ButtonAdd("Hunty Zombie ✔", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubHunty.lua"))()
+    MenuUI:WindowDelete()
+end)
+
 game:GetService("Players").LocalPlayer.Idled:Connect(function()
     local vu = game:GetService("VirtualUser")
     vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)

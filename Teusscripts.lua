@@ -1,5 +1,5 @@
 local MenuUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/SetUIY/main/One.lua"))()
-MenuUI:WindowCreate("Teus Hub V4", "rbxassetid://80086118575102", "dsc.gg/teusscripts")
+MenuUI:WindowCreate("Teus Hub V5", "rbxassetid://80086118575102", "dsc.gg/teusscripts")
 
 MenuUI:ButtonAdd("Blox Fruits Main ✔", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHub.lua"))()
@@ -53,4 +53,10 @@ local gameId = game.PlaceId
 if gameId == 10260193230 then
     -- Meme Sea
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Memesea.lua")
+end
+
+local gameId = game.PlaceId
+if gameId == 79546208627805 then
+    -- 99 Nights in the Forest
+    safeLoad("")
 end

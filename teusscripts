@@ -46,7 +46,7 @@ Tabs.Main:AddButton({
     Callback = function()
         setclipboard("dsc.gg/teusscripts")
         Fluent:Notify({
-            Title = "Tsuo Hub",
+            Title = "Teus Hub",
             Content = T("Link copiado para sua área de transferência!", "Link copied to clipboard!"),
             Duration = 4
         })

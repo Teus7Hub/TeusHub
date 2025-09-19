@@ -26,16 +26,6 @@ MenuUI:ButtonAdd("Meme Sea ✔", function()
     MenuUI:WindowDelete()
 end)
 
-MenuUI:ButtonAdd("Steal a Brainrot ✔", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/StealaBrainrot.lua"))()
-    MenuUI:WindowDelete()
-end)
-
-MenuUI:ButtonAdd("Hunty Zombie ✔", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubHunty.lua"))()
-    MenuUI:WindowDelete()
-end)
-
 game:GetService("Players").LocalPlayer.Idled:Connect(function()
     local vu = game:GetService("VirtualUser")
     vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
@@ -53,6 +43,18 @@ local gameId = game.PlaceId
 if gameId == 10260193230 then
     -- Meme Sea
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Memesea.lua")
+end
+
+local gameId = game.PlaceId
+if gameId == 103754275310547 then
+    -- Hunty Zombie
+    safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubHunty.lua")
+end
+
+local gameId = game.PlaceId
+if gameId == 109983668079237 then
+    -- Steal a Brainrot
+    safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/StealaBrainrot.lua")
 end
 
 local gameId = game.PlaceId

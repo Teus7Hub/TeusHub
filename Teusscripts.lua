@@ -21,11 +21,6 @@ MenuUI:ButtonAdd("Murder Mystery 2 ✔", function()
     MenuUI:WindowDelete()
 end)
 
-MenuUI:ButtonAdd("Meme Sea ✔", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Memesea.lua"))()
-    MenuUI:WindowDelete()
-end)
-
 game:GetService("Players").LocalPlayer.Idled:Connect(function()
     local vu = game:GetService("VirtualUser")
     vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
@@ -61,10 +56,3 @@ if gameId == 79546208627805 then
     -- 99 Nights in the Forest
     safeLoad("")
 end
-
-Fluent:Notify({
-    Title = "Teus Hub",
-    Content = T("Loaded successfully!"),
-    SubContent = "",
-    Duration = 4
-})

@@ -11,7 +11,7 @@ MenuUI:ButtonAdd("Blox Fruits Kaitun ❌", function()
     MenuUI:WindowDelete()
 end)
 
-MenuUI:ButtonAdd("universal (all Game) ✔", function()
+MenuUI:ButtonAdd("Universal (all Game) ✔", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubUniversal.lua"))()
     MenuUI:WindowDelete()
 end)
@@ -38,6 +38,12 @@ local gameId = game.PlaceId
 if gameId == 10260193230 then
     -- Meme Sea
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Memesea.lua")
+end
+
+local gameId = game.PlaceId
+if gameId == 16732694052 then
+    -- Fisch
+    safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/FischOutdated.lua")
 end
 
 local gameId = game.PlaceId

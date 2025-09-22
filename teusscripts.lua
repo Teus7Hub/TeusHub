@@ -22,7 +22,7 @@ end
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "Teus Hub V5",
+    Title = "Teus Hub V5 - Main [ Free ]",
     SubTitle = "dscg.gg/teusscripts | TeusTeam",
     TabWidth = 120,
     Size = UDim2.fromOffset(430, 300),

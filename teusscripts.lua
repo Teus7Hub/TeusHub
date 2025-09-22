@@ -53,8 +53,8 @@ Tabs.Main:AddButton({
     end
 })
 
-local games = {
-    {Name = "Loading Hub...", Url = "https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Teusscripts.lua"},
+local script = {
+    {Name = "Loading Teus Hub V5...", Url = "https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Teusscripts.lua"},
 }
 
 for _, entry in ipairs(games) do

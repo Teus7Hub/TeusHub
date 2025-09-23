@@ -47,6 +47,13 @@ if gameId == 16732694052 then
 end
 
 local gameId = game.PlaceId
+if gameId == 121864768012064 then
+    -- FischIt
+    safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/FischIt.lua")
+end
+
+
+local gameId = game.PlaceId
 if gameId == 103754275310547 then
     -- Hunty Zombie
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubHunty.lua")

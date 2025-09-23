@@ -53,12 +53,6 @@ if gameId == 103754275310547 then
 end
 
 local gameId = game.PlaceId
-if gameId == 126884695634066 then
-    -- Grow a Garden
-    safeLoad("")
-end
-
-local gameId = game.PlaceId
 if gameId == 109983668079237 then
     -- Steal a Brainrot
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/StealaBrainrot.lua")

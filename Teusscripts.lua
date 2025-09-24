@@ -38,18 +38,21 @@ local gameId = game.PlaceId
 if gameId == 10260193230 then
     -- Meme Sea
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Memesea.lua")
+    MenuUI:WindowDelete()
 end
 
 local gameId = game.PlaceId
 if gameId == 16732694052 then
     -- Fisch
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/FischOutdated.lua")
+    MenuUI:WindowDelete()
 end
 
 local gameId = game.PlaceId
 if gameId == 121864768012064 then
     -- FischIt
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/FischIt.lua")
+    MenuUI:WindowDelete()
 end
 
 
@@ -57,22 +60,26 @@ local gameId = game.PlaceId
 if gameId == 103754275310547 then
     -- Hunty Zombie
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubHunty.lua")
+    MenuUI:WindowDelete()
 end
 
 local gameId = game.PlaceId
 if gameId == 109983668079237 then
     -- Steal a Brainrot
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/StealaBrainrot.lua")
+    MenuUI:WindowDelete()
 end
 
 local gameId = game.PlaceId
 if gameId == 79546208627805 then
     -- 99 Nights in the Forest
     safeLoad("")
+    MenuUI:WindowDelete()
 end
 
 local gameId = game.PlaceId
 if gameId == 4520749081 then
     -- King legacy
     safeLoad("")
+    MenuUI:WindowDelete()
 end

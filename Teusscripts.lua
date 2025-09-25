@@ -21,65 +21,55 @@ MenuUI:ButtonAdd("Murder Mystery 2 ✔", function()
     MenuUI:WindowDelete()
 end)
 
+-- Anti AFK
 game:GetService("Players").LocalPlayer.Idled:Connect(function()
     local vu = game:GetService("VirtualUser")
     vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-    wait(1)
+    task.wait(1)
     vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 end)
 
+-- Função segura para carregar scripts
 local function safeLoad(url)
-    pcall(function()
-        loadstring(game:HttpGet(url))()
-    end)
+    if url ~= "" then
+        pcall(function()
+            loadstring(game:HttpGet(url))()
+        end)
+    end
 end
 
+-- Auto Loader por GameId
 local gameId = game.PlaceId
 if gameId == 10260193230 then
     -- Meme Sea
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Memesea.lua")
     MenuUI:WindowDelete()
-end
 
-local gameId = game.PlaceId
-if gameId == 16732694052 then
+elseif gameId == 16732694052 then
     -- Fisch
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/FischOutdated.lua")
     MenuUI:WindowDelete()
-end
 
-local gameId = game.PlaceId
-if gameId == 121864768012064 then
+elseif gameId == 121864768012064 then
     -- FischIt
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/FischIt.lua")
     MenuUI:WindowDelete()
-end
 
-
-local gameId = game.PlaceId
-if gameId == 103754275310547 then
+elseif gameId == 103754275310547 then
     -- Hunty Zombie
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubHunty.lua")
     MenuUI:WindowDelete()
-end
 
-local gameId = game.PlaceId
-if gameId == 109983668079237 then
+elseif gameId == 109983668079237 then
     -- Steal a Brainrot
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/StealaBrainrot.lua")
     MenuUI:WindowDelete()
-end
 
-local gameId = game.PlaceId
-if gameId == 79546208627805 then
+elseif gameId == 79546208627805 then
     -- 99 Nights in the Forest
-    safeLoad("")
     MenuUI:WindowDelete()
-end
 
-local gameId = game.PlaceId
-if gameId == 4520749081 then
-    -- King legacy
-    safeLoad("")
+elseif gameId == 4520749081 then
+    -- King Legacy
     MenuUI:WindowDelete()
 end

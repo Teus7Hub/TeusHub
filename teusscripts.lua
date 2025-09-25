@@ -20,10 +20,10 @@ local function T(pt, en)
     return isPortuguese and pt or en
 end
 
-game:GetService("Players").LocalPlayer.Idled:Connect(function()
+Players.LocalPlayer.Idled:Connect(function()
     local vu = game:GetService("VirtualUser")
     vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-    wait(1)
+    task.wait(1)
     vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 end)
 
@@ -39,7 +39,7 @@ local Window = Fluent:CreateWindow({
 
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" }),
-    Scripts = Window:AddTab({ Title = T("Scripts", "Script"), Icon = "code" })
+    Scripts = Window:AddTab({ Title = T("Scripts", "Scripts"), Icon = "code" })
 }
 
 Tabs.Main:AddParagraph({
@@ -49,7 +49,7 @@ Tabs.Main:AddParagraph({
 
 Tabs.Main:AddButton({
     Title = T("Copiar link do Discord", "Copy Discord link"),
-    Description = ",
+    Description = T("Copia o convite do Discord para a área de transferência.", "Copies the Discord invite to clipboard."),
     Callback = function()
         setclipboard("dsc.gg/teusscripts")
         Fluent:Notify({
@@ -60,11 +60,11 @@ Tabs.Main:AddButton({
     end
 })
 
-local script = {
-    {Name = "Loading Teus Hub V5...", Url = "https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Teusscripts.lua"},
+local scripts = {
+    { Name = "Loading Teus Hub V5...", Url = "https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Teusscripts.lua" },
 }
 
-for _, entry in ipairs(games) do
+for _, entry in ipairs(scripts) do
     Tabs.Scripts:AddButton({
         Title = entry.Name,
         Description = T("Executar script de ", "Execute script for ") .. entry.Name,
@@ -77,6 +77,7 @@ end
 
 Window:SelectTab(1)
 
+-- Notificação inicial
 Fluent:Notify({
     Title = "Teus Hub",
     Content = T("Carregado com sucesso!", "Loaded successfully!"),

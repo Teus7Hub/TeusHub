@@ -47,7 +47,12 @@ elseif gameId == 16732694052 then
     -- Fisch
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/FischOutdated.lua")
     MenuUI:WindowDelete()
-
+    
+elseif gameId == 1537690962 then
+    -- BSS
+    safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubBSSOutdated.lua")
+    MenuUI:WindowDelete()
+    
 elseif gameId == 121864768012064 then
     -- FischIt
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/FischIt.lua")

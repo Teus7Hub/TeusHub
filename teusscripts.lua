@@ -61,7 +61,7 @@ Tabs.Main:AddButton({
 })
 
 local scripts = {
-    { Name = "Loading Teus Hub V5...", Url = "https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Teusscripts.lua" },
+    { Name = "Loading Main Teus Hub V5...", Url = "https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Teusscripts.lua" },
 }
 
 for _, entry in ipairs(scripts) do
@@ -79,7 +79,7 @@ Window:SelectTab(1)
 
 -- Notificação inicial
 Fluent:Notify({
-    Title = "Teus Hub",
+    Title = "Teus Hub V5",
     Content = T("Carregado com sucesso!", "Loaded successfully!"),
     SubContent = "https://dsc.gg/teusscripts",
     Duration = 4

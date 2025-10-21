@@ -1,5 +1,5 @@
 local MenuUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/SetUIY/main/One.lua"))()
-MenuUI:WindowCreate("Teus Hub V5", "rbxassetid://80086118575102", "dsc.gg/teusscripts")
+MenuUI:WindowCreate("Teus Hub V5 Edition Halloween", "rbxassetid://80086118575102", "dsc.gg/teusscripts")
 
 MenuUI:ButtonAdd("Blox Fruits Main ✔/❌", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHub.lua"))()

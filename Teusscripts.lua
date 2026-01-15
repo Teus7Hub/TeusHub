@@ -6,8 +6,8 @@ MenuUI:ButtonAdd("Blox Fruits Main ✔", function()
     MenuUI:WindowDelete()
 end)
 
-MenuUI:ButtonAdd("Blox Fruits Kaitun ❌", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/Kaitun.lua"))()
+MenuUI:ButtonAdd("Blox Fruits Kaitun ✔", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubKaitun.lua"))()
     MenuUI:WindowDelete()
 end)
 

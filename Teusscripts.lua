@@ -60,7 +60,7 @@ elseif gameId == 121864768012064 then
 
 elseif gameId == 103754275310547 then
     -- Hunty Zombie
-    safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubHunty.lua")
+    safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubZombieHunty.lua")
     MenuUI:WindowDelete()
 
 elseif gameId == 109983668079237 then

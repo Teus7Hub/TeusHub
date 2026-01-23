@@ -11,7 +11,7 @@ MenuUI:ButtonAdd("Blox Fruits Kaitun", function()
     MenuUI:WindowDelete()
 end)
 
-MenuUI:ButtonAdd("Universal (all Game and free adm for all game)", function()
+MenuUI:ButtonAdd("Universal (all Game)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubUniversal.lua"))()
     MenuUI:WindowDelete()
 end)

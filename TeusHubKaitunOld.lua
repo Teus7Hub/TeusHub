@@ -1,4 +1,3 @@
-getgenv().Hide_UI = true 
 getgenv().BlackScreen = false
 _G.HopFruit1M = true
 _G.KaitunConfig = {

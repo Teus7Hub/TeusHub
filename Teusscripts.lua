@@ -67,12 +67,4 @@ elseif gameId == 109983668079237 then
     -- Steal a Brainrot
     safeLoad("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/StealaBrainrot.lua")
     MenuUI:WindowDelete()
-
-elseif gameId == 79546208627805 then
-    -- 99 Nights in the Forest
-    MenuUI:WindowDelete()
-
-elseif gameId == 4520749081 then
-    -- King Legacy
-    MenuUI:WindowDelete()
 end

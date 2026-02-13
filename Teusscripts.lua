@@ -1,12 +1,12 @@
 local MenuUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/SetUIY/main/One.lua"))()
 MenuUI:WindowCreate("Teus Hub", "http://www.roblox.com/asset/?id=17140528880", "dsc.gg/teusscripts")
 
-MenuUI:ButtonAdd("Blox Fruits Main", function()
+MenuUI:ButtonAdd("Blox Fruits Main (Beta)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHub.lua"))()
     MenuUI:WindowDelete()
 end)
 
-MenuUI:ButtonAdd("Blox Fruits Kaitun (Beta)", function()
+MenuUI:ButtonAdd("Blox Fruits Kaitun (Alpha)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubKaitun.lua"))()
     MenuUI:WindowDelete()
 end)
@@ -20,7 +20,6 @@ MenuUI:ButtonAdd("Murder Mystery 2", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/MM2.lua"))()
     MenuUI:WindowDelete()
 end)
-
 
 game:GetService("Players").LocalPlayer.Idled:Connect(function()
     local vu = game:GetService("VirtualUser")

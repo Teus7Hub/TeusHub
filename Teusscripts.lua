@@ -6,7 +6,7 @@ MenuUI:ButtonAdd("Blox Fruits Main", function()
     MenuUI:WindowDelete()
 end)
 
-MenuUI:ButtonAdd("Blox Fruits Kaitun (Beta)", function()
+MenuUI:ButtonAdd("Blox Fruits Kaitun (off)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHubKaitun.lua"))()
     MenuUI:WindowDelete()
 end)

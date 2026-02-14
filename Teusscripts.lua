@@ -1,5 +1,5 @@
 local MenuUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/MaxHub778/Stinz/refs/heads/main/PurpleOne.lua"))()
-MenuUI:WindowCreate("Teus Hub", "http://www.roblox.com/asset/?id=17140528880", "dsc.gg/teusscripts")
+MenuUI:WindowCreate("Teus Hub", "rbxassetid://18748074579", "dsc.gg/teusscripts")
 
 MenuUI:ButtonAdd("Blox Fruits Main", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teus7Hub/TeusHub/refs/heads/main/TeusHub.lua"))()

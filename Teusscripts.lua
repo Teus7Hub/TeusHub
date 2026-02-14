@@ -1,4 +1,4 @@
-local MenuUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/SetUIY/main/One.lua"))()
+local MenuUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/MaxHub778/Stinz/refs/heads/main/PurpleOne.lua"))()
 MenuUI:WindowCreate("Teus Hub", "http://www.roblox.com/asset/?id=17140528880", "dsc.gg/teusscripts")
 
 MenuUI:ButtonAdd("Blox Fruits Main", function()
@@ -24,7 +24,7 @@ end)
 game:GetService("Players").LocalPlayer.Idled:Connect(function()
     local vu = game:GetService("VirtualUser")
     vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-    task.wait(0.5)
+    task.wait(1)
     vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 end)
 
